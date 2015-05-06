@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="bgGray">
+        <item name="android:background">#626465</item>
+    </style>
+
+    <style name="lightText">
+        <item name="android:textColor">#d6d6d6</item>
+    </style>
+
+    <style name="greenText">
+        <item name="android:textColor">#accb12</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:fontFamily">Helvetica</item>
+    </style>
+
+</resources>

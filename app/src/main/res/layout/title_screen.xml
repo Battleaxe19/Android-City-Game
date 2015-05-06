@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bgGray">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            style="@style/greenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvCity"
+            android:id="@+id/tvTitle1"
+            android:textStyle="bold"
+            android:textSize="36sp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            style="@style/lightText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tvCatch"
+            android:id="@+id/tvTitle2"
+            android:textSize="36sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_play"
+        android:background="@drawable/buttonshape"
+        android:textColor="#F5F5F5"
+        android:textSize="34sp"
+        android:id="@+id/buPlay"
+        android:layout_above="@+id/buSettings"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:onClick="sendMessage"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_settings"
+        android:background="@drawable/buttonshape"
+        android:textColor="#F5F5F5"
+        android:textSize="34sp"
+        android:id="@+id/buSettings"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rect"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+
+</RelativeLayout>
